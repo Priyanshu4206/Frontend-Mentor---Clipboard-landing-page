@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Frontend Mentor - Clipboard landing page]()
+- Live Site URL: [Frontend Mentor - Clipboard landing page](https://clipboard-home-page-pa.netlify.app)
 
 ## My process
 
@@ -46,5 +46,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Frontend Mentor - Clipboard landing page]()
+- Website - [Frontend Mentor - Clipboard landing page](https://clipboard-home-page-pa.netlify.app)
 - Frontend Mentor - [@Priyanshu4206](https://www.frontendmentor.io/profile/Priyanshu4206)
