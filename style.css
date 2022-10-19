@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    padding-top: 6rem;
+    background: url('/images/bg-header-desktop.png');
+}
+
+.logo {
+    text-align: center;
+}
+
+main {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: hsl(210, 10%, 33%);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: hsl(210, 10%, 33%);
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: hsl(210, 10%, 33%);
+    font-weight: 700;
+}
+
+p {
+    width: 31rem;
+    margin: 0.5rem 0;
+    font-size: 14.6px;
+    color: hsl(201, 11%, 66%);
+}
+
+a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+/* download Buttons section */
+
+.download_btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+.btn {
+    margin: 1rem 0.5rem;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn_ios {
+    background-color: hsl(171, 66%, 44%);
+    border-color: hsl(171, 66%, 44%);
+}
+
+.btn_mac {
+    background-color: hsl(233, 100%, 69%);
+    border-color: hsl(233, 100%, 69%);
+}
+
+/* Download Button section ends */
+.snippets p {
+    width: 35rem;
+}
+
+/* Feature Section */
+.features {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 0;
+}
+
+.left {
+    text-align: left;
+}
+
+.left img {
+    width: 100%;
+    min-height: 255px;
+    min-width: 334px;
+}
+
+.right {
+    text-align: left;
+}
+
+.feature_box {
+    margin-left: 6vw;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 3vw;
+}
+
+.feature_box p {
+    width: 19.2rem;
+    margin-right: 1rem;
+}
+
+/* Feature Section End */
+
+.access {
+    margin: 4rem 0;
+}
+
+.access p {
+    width: 38%;
+}
+
+/* Properties Available */
+.prop_avail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 3rem 0;
+}
+
+.prop_avail .items {
+    width: 23%;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prop_avail .items:first-child {
+    width: 21%;
+}
+
+.icon {
+    margin-bottom: 2rem;
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.items p {
+    width: auto;
+    margin: 0.8rem auto;
+}
+
+.banner_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner_img img {
+    max-width: 55%;
+    min-width: 513px;
+}
+
+/* Properties Available Ends */
+
+/* Associates */
+
+.associates {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    margin-bottom: 7rem;
+}
+
+.img_cont {
+    margin: 0 2.5vw;
+}
+
+.img_cont img {
+    width: 10vw;
+}
+
+/* Associates Ends */
+
+/* footer */
+
+footer {
+    background-color: hsl(200, 25.7%, 93.1%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+footer .logo img {
+    width: 32px;
+}
+
+.box {
+    display: grid;
+    margin: 1.5rem 0;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    gap: 0.8rem 4rem;
+    font-size: 14.6px;
+
+    font-weight: 400;
+}
+
+.social {
+    display: flex;
+}
+
+.social_icons {
+    margin: 0 0.5rem;
+}
+
+.social_icons i {
+    font-size: 20px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: black;
+    font-size: 11px;
+}
+
+/* footer Ends */
+
+@media(max-width:700px) {
+
+    p,
+    .snippets p,
+    .feature_box p,
+    .btn,
+    .access p,
+    .items p {
+        width: 75%;
+    }
+
+    h1,
+    h2 {
+        width: 84%;
+    }
+
+    .download_btns,
+    .features,
+    .associates,
+    footer {
+        flex-direction: column;
+    }
+
+
+    .prop_avail {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        grid-template-columns: none;
+        grid-template-rows: (5, 1fr);
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .right {
+        text-align: center;
+    }
+
+    .feature_box {
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .prop_avail .items:first-child {
+        width: inherit;
+    }
+
+    .prop_avail .items {
+        width: inherit;
+        margin-top: 2rem;
+    }
+
+    .img_cont {
+        margin: 2rem;
+    }
+
+    .img_cont img {
+        width: inherit;
+
+    }
+
+    .left {
+        text-align: center;
+    }
+
+    .left img {
+        width: 95%;
+        min-width: none;
+        min-height: auto;
+    }
+
+    .banner_img img {
+        width: 95%;
+        min-width: auto;
+        max-width: none;
+    }
+
+    .logo {
+        margin-top: 3rem;
+    }
+
+    footer .logo img {
+        width: 50px;
+    }
+
+    .social {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .social_icons i {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:380px) {
+    header {
+        background: url('/images/bg-header-mobile.png');
+    }
+
+}
